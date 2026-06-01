@@ -1,3 +1,7 @@
+
+## Demo
+
+![Audit RAG Demo](assets/demo.png)
 # Audit Knowledge RAG System
 
 一个面向审计知识问答场景的本地化 RAG 系统。系统基于审计署公开审计知识问答数据，使用 Qdrant 构建本地向量知识库，并通过 LangGraph + FastAPI + 大语言模型接口实现带来源追溯的审计知识问答。
