@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# uv
+.uv-cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/*.json
+data/*.csv
+data/*.xlsx
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Keep empty folders
+!data/.gitkeep
+!logs/.gitkeep
+
+# Qdrant storage
+qdrant_storage/
+
+# Playwright
+playwright-report/
+test-results/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
